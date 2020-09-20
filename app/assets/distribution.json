@@ -1,0 +1,459 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "684541921422737412",
+        "smallImageText": "SAO France",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "rss": "https://launcher.saofrance-mc.net/v3/news.rss",
+    "servers": [
+        {
+            "id": "SAOFrance-1.12.2",
+            "name": "SAOFrance",
+            "description": "Serveur SAOFrance.",
+            "icon": "https://launcher.saofrance-mc.net/v3/files/server_icon.png",
+            "version": "1.0.0",
+            "address": "51.75.241.116:25566",
+            "minecraftVersion": "1.12.2",
+            "discord": {
+                "shortId": "Production",
+                "largeImageText": "Serveur SAOFrance",
+                "largeImageKey": "server-prod"
+            },
+            "mainServer": true,
+            "autoconnect": false,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2847",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 4884700,
+                        "MD5": "90734A5A713E24902D24C45C15CAA42C",
+                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.minecraft:launchwrapper:1.12",
+                            "name": "Mojang (LaunchWrapper)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32999,
+                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/launchwrapper-1.12.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-all:5.2",
+                            "name": "MinecraftForge (ASM)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 247787,
+                                "MD5": "f5ad16c7f0338b541978b0430d51dc83",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/asm-all-5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.jline:jline:3.5.1",
+                            "name": "MinecraftForge (jline)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 614590,
+                                "MD5": "4C20D2879ED2BD75A0771CE29E89F6B0",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/jline-3.5.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-library:2.11.1",
+                            "name": "Minecraft Forge (scala-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 5612286,
+                                "MD5": "6F9208AF82F7C2811A6C0DE049CFE279",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-library-2.11.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-compiler:2.11.1",
+                            "name": "Minecraft Forge (scala-compiler)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 13576400,
+                                "MD5": "D9FC987043FCF8C25D0F73BC7CA36A47",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-compiler-2.11.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+                            "name": "Minecraft Forge (scala-actors-migration)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 58767,
+                                "MD5": "7F7B169667D14B3092A285BADF9487F7",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-actors-migration_2.11-1.1.0.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+                            "name": "Minecraft Forge (scala-continuations-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 26551,
+                                "MD5": "F2A6B8FB8451839EFB670D03DFD79EBD",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-continuations-library_2.11-1.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+                            "name": "Minecraft Forge (scala-continuations-plugin)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 209882,
+                                "MD5": "40E725B6F9DA3A52E6ADFFD94ABB8290",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+                            "name": "Minecraft Forge (scala-parser-combinators)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 430247,
+                                "MD5": "FE20384E064DD025E144BEE2858ABF1A",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-parser-combinators_2.11-1.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-reflect:2.11.1",
+                            "name": "Minecraft Forge (scala-reflect)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 4415437,
+                                "MD5": "08B829B97A4258421B7E5C902B8A08AC",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-reflect-2.11.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+                            "name": "Minecraft Forge (scala-swing)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 736831,
+                                "MD5": "5D8C98094F1AE58184ED2E087FCA7C44",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-swing_2.11-1.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-xml_2.11:1.0.2",
+                            "name": "Minecraft Forge (scala-xml)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 660552,
+                                "MD5": "A54CA733EF0EDE9C343F1CE9ED0B527C",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-xml_2.11-1.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+                            "name": "Minecraft Forge (akka-actor)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2514991,
+                                "MD5": "541440CA0819EBADA47D6D1A8B3EE9E1",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/akka-actor_2.11-2.3.3.jar"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe:config:1.2.1",
+                            "name": "Minecraft Forge (typesafe-config)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 219554,
+                                "MD5": "3AAF3C6E76A68E732C17D4A7E9877D81",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/config-1.2.1.jar"
+                            }
+                        },
+                        {
+                            "id": "lzma:lzma:0.0.1",
+                            "name": "Mojang (LZMA)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 5762,
+                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/lzma-0.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.trove4j:trove4j:3.0.3",
+                            "name": "Trove4J",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2523218,
+                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/trove4j-3.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "java3d:vecmath:1.5.2",
+                            "name": "Vecmath",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 318956,
+                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/vecmath-1.5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:5.0.3",
+                            "name": "Jopt-simple",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 78175,
+                                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/jopt-simple-5.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "org.apache.maven:maven-artifact:3.5.3",
+                            "name": "maven-artifact",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 54961,
+                                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/maven-artifact-3.5.3.jar"
+                            }
+                        }
+                    ]
+
+                },
+                {
+                    "id": "net.optifine:optiFine:1.12.2_HD_U_F5",
+                    "name": "Optifine",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2598821,
+                        "MD5": "043AC1DB6F7441EA4CF31BCB621AFF0B",
+                        "url": "https://launcher.saofrance-mc.net/v3/files/mods/OptiFine_1.12.2_HD_U_F5.jar"
+                    }
+                },
+                {
+                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2847",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 4884700,
+                        "MD5": "90734A5A713E24902D24C45C15CAA42C",
+                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.minecraft:launchwrapper:1.12",
+                            "name": "Mojang (LaunchWrapper)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32999,
+                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/launchwrapper-1.12.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-all:5.2",
+                            "name": "MinecraftForge (ASM)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 247787,
+                                "MD5": "f5ad16c7f0338b541978b0430d51dc83",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/asm-all-5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.jline:jline:3.5.1",
+                            "name": "MinecraftForge (jline)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 614590,
+                                "MD5": "4C20D2879ED2BD75A0771CE29E89F6B0",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/jline-3.5.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-library:2.11.1",
+                            "name": "Minecraft Forge (scala-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 5612286,
+                                "MD5": "6F9208AF82F7C2811A6C0DE049CFE279",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-library-2.11.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-compiler:2.11.1",
+                            "name": "Minecraft Forge (scala-compiler)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 13576400,
+                                "MD5": "D9FC987043FCF8C25D0F73BC7CA36A47",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-compiler-2.11.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+                            "name": "Minecraft Forge (scala-actors-migration)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 58767,
+                                "MD5": "7F7B169667D14B3092A285BADF9487F7",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-actors-migration_2.11-1.1.0.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+                            "name": "Minecraft Forge (scala-continuations-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 26551,
+                                "MD5": "F2A6B8FB8451839EFB670D03DFD79EBD",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-continuations-library_2.11-1.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+                            "name": "Minecraft Forge (scala-continuations-plugin)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 209882,
+                                "MD5": "40E725B6F9DA3A52E6ADFFD94ABB8290",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+                            "name": "Minecraft Forge (scala-parser-combinators)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 430247,
+                                "MD5": "FE20384E064DD025E144BEE2858ABF1A",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-parser-combinators_2.11-1.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-reflect:2.11.1",
+                            "name": "Minecraft Forge (scala-reflect)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 4415437,
+                                "MD5": "08B829B97A4258421B7E5C902B8A08AC",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-reflect-2.11.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+                            "name": "Minecraft Forge (scala-swing)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 736831,
+                                "MD5": "5D8C98094F1AE58184ED2E087FCA7C44",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-swing_2.11-1.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-xml_2.11:1.0.2",
+                            "name": "Minecraft Forge (scala-xml)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 660552,
+                                "MD5": "A54CA733EF0EDE9C343F1CE9ED0B527C",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/scala-xml_2.11-1.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+                            "name": "Minecraft Forge (akka-actor)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2514991,
+                                "MD5": "541440CA0819EBADA47D6D1A8B3EE9E1",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/akka-actor_2.11-2.3.3.jar"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe:config:1.2.1",
+                            "name": "Minecraft Forge (typesafe-config)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 219554,
+                                "MD5": "3AAF3C6E76A68E732C17D4A7E9877D81",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/config-1.2.1.jar"
+                            }
+                        },
+                        {
+                            "id": "lzma:lzma:0.0.1",
+                            "name": "Mojang (LZMA)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 5762,
+                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/lzma-0.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.trove4j:trove4j:3.0.3",
+                            "name": "Trove4J",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2523218,
+                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/trove4j-3.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "java3d:vecmath:1.5.2",
+                            "name": "Vecmath",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 318956,
+                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/vecmath-1.5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:5.0.3",
+                            "name": "Jopt-simple",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 78175,
+                                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/jopt-simple-5.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "org.apache.maven:maven-artifact:3.5.3",
+                            "name": "maven-artifact",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 54961,
+                                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                                "url": "https://launcher.saofrance-mc.net/v3/files/forgelibraries/maven-artifact-3.5.3.jar"
+                            }
+                        }
+                    ]
+
+                },
+                {
+                    "id": "net.optifine:optiFine:1.12.2_HD_U_F5",
+                    "name": "Optifine",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2598821,
+                        "MD5": "043AC1DB6F7441EA4CF31BCB621AFF0B",
+                        "url": "https://launcher.saofrance-mc.net/v3/files/mods/OptiFine_1.12.2_HD_U_F5.jar"
+                    }
+                }
+            ]
+        }
+        
+    ]
+}
